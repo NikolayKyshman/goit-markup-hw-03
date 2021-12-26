@@ -6,31 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <!-- header -->
     <header class="header">
+        <div class="container header-container">
         <nav class="header-nav">
-            <a class="header-logo link" href="">Web<span class="logo-studio-b">Studio</span></a>
+            <a class="header-logo link" href="/index.html">Web<span class="logo-studio-b">Studio</span></a>
             <ul class="header-list list">
                 <li class="header-item"><a class="link header-link" href="">Студия</a></li>
-                <li class="header-item"><a class="link header-link" href="/portfolio.html">Портфолио</a></li>
+                <li class="header-item"><a class="link header-link" href="portfolio.html">Портфолио</a></li>
                 <li class="header-item"><a class="link header-link" href="">Контакты</a></li>
             </ul>
-            <ul class="list">
+            <ul class="list header-list">
                 <li><a class="link header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="link header-tel" href="tel:+380961111111">+380961111111</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
-        <div>
+        <div class="container">
             <!-- hero -->
             <section class="hero">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
@@ -39,6 +44,7 @@
         </div>
         <!-- about -->
         <section class="about">
+            <div class="container">
             <ul class="list about-list">
                 <li class="about-item">
                     <h3 class="about-title">Внимание к деталям</h3>
@@ -69,24 +75,28 @@
                     </p>
                 </li>
             </ul>
+            </div>
         </section>
         <!-- basic -->
         <section class="basic">
-            <h2 class="basic-title">Чем мы занимаемся</h2>
-            <ul class="list basic-list">
-             <li class="basic-item">
-                <img src="./images/image.clas1.jpg" alt="ноутбук" width="370" height="294" />
-            </li>
-            <li class="basic-item">
-                <img src="./images/image.clas2.jpg" alt="смартфон" width="370" height="294" />
-            </li>
-            <li class="basic-item">
-                <img src="./images/image.clas3.jpg" alt="планшет" width="370" height="294" />
-            </li>
-                </ul>
+            <div class="container">
+                <h2 class="basic-title">Чем мы занимаемся</h2>
+                <ul class="list basic-list">
+                <li class="basic-item">
+                    <img src="./images/image.clas1.jpg" alt="ноутбук" width="370" height="294" />
+                </li>
+                <li class="basic-item">
+                    <img src="./images/image.clas2.jpg" alt="смартфон" width="370" height="294" />
+                </li>
+                <li class="basic-item">
+                    <img src="./images/image.clas3.jpg" alt="планшет" width="370" height="294" />
+                </li>
+                    </ul>
+            </div>
         </section>
         <!-- team -->
         <section class="team">
+            <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="list team-list">
                 <li class="team-item">
@@ -110,10 +120,12 @@
                     <p class="item-profil" lang="en">UI Designer</p>
                 </li>
              </ul>
+            </div>
             </section>
         </main>
               <!-- footer -->
-                 <footer class="footer">
+              <footer class="footer">
+                <div class="container">
                      <p>&#127970;</p>
             <address>
                 <a class="link footer-logo" lang="en">Web<span class="logo-studio-w">Studio</span></a>
@@ -124,6 +136,7 @@
                     <li><a class="link footer-tel" href="tel:+380991111111">+380991111111</a></li>
                 </ul>
             </address>
-        </footer>
+            </div>
+           </footer>
     </body>
 </html>

@@ -19,11 +19,20 @@ body {
   text-decoration: none;
 }
 
-footer {
-  background-color: var(--first-background-color);
+/* --------------------------HEADER----------------------------- */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
 }
 
-/* --------------------------HEADER----------------------------- */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .header-logo {
   font-family: "Raleway";
@@ -33,6 +42,10 @@ footer {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--logo-and-active-color);
+}
+
+.header-list {
+  display: flex;
 }
 
 .logo-studio-b {
@@ -78,6 +91,10 @@ footer {
 /*--------------------------HERO------------------------- */
 .hero {
   background-color: var(--first-background-color);
+  padding-top: 200px;
+  padding-right: 0;
+  padding-bottom: 200px;
+  padding-left: 452px;
 }
 
 .hero-title {
@@ -89,6 +106,7 @@ footer {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--first-color);
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -115,7 +133,10 @@ footer {
 }
 
 /* ------------------------ABOUT----------------------- */
-
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .about-title {
   font-style: normal;
   font-weight: bold;
@@ -124,6 +145,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
+  margin-bottom: 10px;
 }
 
 .about-exemp-title {
@@ -136,7 +158,10 @@ footer {
 }
 
 /* ------------------------------BASIC---------------------------- */
-
+.basic {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .basic-title {
   font-style: normal;
   font-weight: bold;
@@ -157,6 +182,7 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  margin-bottom: 50px;
 }
 
 .team-title-name {
@@ -167,6 +193,8 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .item-profil {
@@ -177,10 +205,18 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin-bottom: 30px;
 }
 
 /* -----------------------------footer-------------------------- */
+footer {
+  background-color: var(--first-background-color);
+}
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -189,6 +225,7 @@ footer {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--logo-and-active-color);
+  margin-bottom: 20px;
 }
 
 .footer-location {
@@ -198,8 +235,11 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--first-color);
+  margin-bottom: 9px;
 }
-
+.footer-mail {
+  margin-bottom: 9px;
+}
 .footer-mail,
 .footer-tel {
   font-style: normal;
@@ -222,6 +262,7 @@ footer {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
   color: var(--title-color);
 }
 
