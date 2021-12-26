@@ -48,7 +48,7 @@ body {
 }
 .header-conection {
   display: flex;
-  margin-right: auto;
+  margin-left: auto;
 }
 
 .header {
@@ -113,7 +113,7 @@ body {
   padding-top: 200px;
   padding-right: 0;
   padding-bottom: 200px;
-  padding-left: 452px;
+  padding-left: 0;
 }
 
 .hero-title {
@@ -151,6 +151,9 @@ body {
   background-color: #188ce8;
 }
 
+.hero .hero-btn {
+  text-align: center;
+}
 /* ------------------------ABOUT----------------------- */
 .about {
   padding-top: 94px;
