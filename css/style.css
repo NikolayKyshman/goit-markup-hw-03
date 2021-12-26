@@ -31,15 +31,17 @@ body {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-list {
   display: flex;
-  margin-right: auto;
 }
-
-.header-item not(:last-child) {
+.header-item {
   margin-right: 50px;
+}
+.header-tel {
+  margin-left: 50px;
 }
 
 .header-nav {
@@ -144,6 +146,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--first-color);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-btn:hover,
@@ -151,13 +155,16 @@ body {
   background-color: #188ce8;
 }
 
-.hero .hero-btn {
+.button.hero-btn {
+  display: flex;
   text-align: center;
 }
 /* ------------------------ABOUT----------------------- */
 .about {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  display: flex;
 }
 .about-title {
   font-style: normal;
@@ -177,6 +184,14 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+
+  width: 270px;
+}
+
+.about-list {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* ------------------------------BASIC---------------------------- */
