@@ -26,7 +26,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .header-container {
@@ -56,6 +56,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 
 .header-logo {
@@ -229,12 +230,9 @@ body {
 /* ---------------------------TEAM------------------------------ */
 .team-list {
   display: flex;
-  margin-right: -30px;
-  margin-bottom: -30px;
 }
 
-.team-item :not(:last-child) {
-  width: calc(100% / 4 - 30px);
+.team-item {
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -276,8 +274,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-  margin-bottom: 30px;
 
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -404,4 +402,8 @@ footer {
 
 .footer-logo {
   margin-bottom: 20px;
+}
+
+.footer-list-conection {
+  margin-bottom: 9px;
 }
