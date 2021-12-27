@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -14,7 +18,7 @@
 <body>
     <!-- header -->
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
         <nav class="header-nav">
             <a href="/index.html" class="header-logo link">Web<span class="logo-studio-b">Studio</span></a>
             <ul class="list header-list">
@@ -22,11 +26,13 @@
                 <li class="header-item"><a class="link header-link" href="">Портфолио</a></li>
                 <li class="header-item"><a class="link header-link" href="">Контакты</a></li>
             </ul>
+            </nav>
+            <div class="header-conection">
             <ul class="list header-list">
-                <li class="header-item"><a class="link header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="header-item"><a class="link header-tel" href="tel:+380961111111">+380961111111</a></li>
+                <li class=""><a class="link header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class=""><a class="link header-tel" href="tel:+380961111111">+380961111111</a></li>
             </ul>
-        </nav>
+            </div>
         </div>
         </header>
         <!-- btn -->
@@ -44,7 +50,7 @@
         <!-- hero -->
         <section class="hero-portfolio">
             <div class="container">
-            <ul class="list"> 
+            <ul class="list project-list"> 
                 <li class="hero-post list">
                 <img src="./images/portf1.jpg" alt="" width="370" height="294" />  
                    <h2 class="hero-title-portfolio">Технокряк</h2>
@@ -94,22 +100,21 @@
             </ul>
             </div>
         </section>
-        <section>
-        <div class="container">
-        <footer class="footer">
-            <p>&#127970;</p>
-            <address>
-                <a class="link footer-logo" lang="en">Web<span class="logo-studio-w">Studio</span></a>
-                <ul class="list">
-                    <li><a class="link footer-location" href="https://goo.gl/maps/ff1c4DkWbciWskJk6" target="_blank"
-                            rel="noopener noreferrer">
+            <footer>
+                <div class="container">
+                    <address>
+                        <ul class="list footer-list">
+                            <li class="link footer-logo">
+                                 <a class="link footer-logo" href="./index.html" lang="en">Web<span class="logo-studio-w">Studio</span></a></li>
+                            <li><a class="link footer-location" href="https://goo.gl/maps/ff1c4DkWbciWskJk6" target="_blank" rel="noopener noreferrer">
                             г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li><a class="link footer-mail" href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a class="link footer-tel" href="tel:+380991111111">+380991111111</a></li>
-                </ul>
-            </address>
-        </footer>
-        </div>
-        </section>
-    </body>
+                            <li><a class="link footer-mail" href="mailto:info@example.com">info@example.com</a></li>"
+                            <li><a class="link footer-tel" href="tel:+380991111111">+380991111111</a>"</li>
+                       </ul>
+                    </address>
+                </div>
+
+            </footer>  
+      
+      </body>
 </html>
