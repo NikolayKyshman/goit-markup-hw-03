@@ -36,6 +36,8 @@ body {
 
 .header-list {
   display: flex;
+  /* margin: 0;
+  padding-left: 0; */
 }
 .header-item {
   margin-right: 50px;
