@@ -405,6 +405,8 @@ footer {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+
+  margin: 0;
 }
 
 .hero-exemp-title {
@@ -414,6 +416,9 @@ footer {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+
+  margin-top: 4px;
+  margin-bottom: 0;
 }
 
 .project-list {
@@ -439,10 +444,6 @@ footer {
 
   background: #ffffff;
   border: 1px solid #eeeeee;
-}
-
-.hero-exemp-title {
-  margin-top: 4px;
 }
 
 .footer-list {
