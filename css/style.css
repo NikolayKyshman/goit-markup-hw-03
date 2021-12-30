@@ -40,10 +40,9 @@ body {
 .header-item {
   margin-right: 50px;
   padding-top: 32px;
+  margin-bottom: 0;
   padding-bottom: 32px;
-}
-.header-tel {
-  margin-left: 50px;
+  padding-left: 0;
 }
 
 .header-nav {
@@ -131,7 +130,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--first-color);
-  margin-bottom: 30px;
+
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .hero-btn {
@@ -158,6 +159,8 @@ body {
   color: var(--first-color);
   margin-right: auto;
   margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .hero-btn:hover,
@@ -247,6 +250,7 @@ body {
   display: flex;
 
   padding-bottom: 94px;
+  margin-bottom: 0;
 }
 
 .team-item {
